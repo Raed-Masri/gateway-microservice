@@ -29,11 +29,11 @@ export const routes = [
     port: "3002",
     path: "/videos/rating/:id",   //add rating
   },
-  // {
-  //   method: "patch",
-  //   port: "3002",
-  //   path: "/videos/:id/:commentId",  //update comment
-  // },
+  {
+    method: "patch",
+    port: "3002",
+    path: "/videos/:id/:commentId",  //update comment
+  },
   // {
   //   method: "get",
   //   port: "3002",
